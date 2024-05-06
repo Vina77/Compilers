@@ -4,8 +4,11 @@
 
 int main()
 {
+    //std::string userInput = "2+3-x=1";
+    std::string userInput;
 
-    std::string userInput = "2+3-x=1";
+    std::cout << "Coloque uma expressao matematica para ser analisada: " << std::endl;
+    std::cin >> userInput;
 
     std::cout << "-----------------------------------" << std::endl;
     std::cout << "  Lexema  |  Token (tipos de token)" << std::endl;
